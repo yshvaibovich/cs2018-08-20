@@ -45,13 +45,13 @@ int r=a-b;
 int pr=a*b;
 int ch=a/b;
 int ost=a%b;
+        System.out.println(sum+" "+r+" "+pr+" "+ch+" "+ost);
 double dsum=a+b;
 double dr=a-b;
 double dpr=a*b;
 double dch=(double)a/b;
 double dost=a%b;
-        System.out.println(sum+" "+r+" "+pr+" "+ch+" "+ost+" ");
-        System.out.println(dsum+" "+dr+" "+dpr+" "+dch+" "+dost+" ");
+        System.out.println(dsum+" "+dr+" "+dpr+" "+dch+" "+dost);
     }
 
 }
