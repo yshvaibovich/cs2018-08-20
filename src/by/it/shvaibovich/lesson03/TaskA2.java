@@ -22,11 +22,11 @@ Lesson 03. Task A2. Стихотворение
 */
 class TaskA2 {
     public static void main(String[] args) {
-        String a ="asdgfhdfghdfghdgfhdfghdfad";
-                String b="qweefghddfhgdfghdfghdfghqw";
-        String c="qeqweqttdfghdfghdfghdfhdfhas";
-                String d="xcvxcdfhdfhdfhdfhdfhdfhvxcv";
-        String e="sxcbdhdfghgfdhfdsgb";
+        String a ="Буря мглою небо кроет, вихри снежные крутя.";
+                String b="То, как зверь, она завоет,";
+        String c="То заплачет, как дитя,";
+                String d="То по кровле обветшалой";
+        String e="Вдруг соломой зашумит.";
         System.out.println("Мое любимое стихотворение:");
                System.out.println(a+"\n"+b+"\n"+c+"\n"+d+"\n"+e);
     }
