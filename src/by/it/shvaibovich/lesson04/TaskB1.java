@@ -26,5 +26,7 @@ package by.it.shvaibovich.lesson04;
 
 */
 public class TaskB1 {
+    public static void main(String[] args) {
 
+    }
 }
