@@ -20,7 +20,11 @@ class TaskC2 {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-
+        int c=a+b;
+        System.out.println("DEC:"+a+"+"+b+"="+c);
+        System.out.println("BIN:"+a+"+"+b+"="+Integer.toBinaryString(c));
+        System.out.println("HEX:"+a+"+"+b+"="+Integer.toHexString(c));
+        System.out.println("OCT:"+a+"+"+b+"="+Integer.toOctalString(c));
     }
 
 }
