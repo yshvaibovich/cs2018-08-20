@@ -22,9 +22,9 @@ class TaskC2 {
         int b=sc.nextInt();
         int c=a+b;
         System.out.println("DEC:"+a+"+"+b+"="+c);
-        System.out.println("BIN:"+a+"+"+b+"="+Integer.toBinaryString(c));
-        System.out.println("HEX:"+a+"+"+b+"="+Integer.toHexString(c));
-        System.out.println("OCT:"+a+"+"+b+"="+Integer.toOctalString(c));
+        System.out.println("BIN:"+Integer.toBinaryString(a)+"+"+Integer.toBinaryString(b)+"="+Integer.toBinaryString(c));
+        System.out.println("HEX:"+Integer.toHexString(a)+"+"+Integer.toHexString(b)+"="+Integer.toHexString(c));
+        System.out.println("OCT:"+Integer.toOctalString(a)+"+"+Integer.toOctalString(b)+"="+Integer.toOctalString(c));
     }
 
 }

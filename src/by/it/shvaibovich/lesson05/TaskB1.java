@@ -10,6 +10,15 @@ package by.it.shvaibovich.lesson05;
 */
 
 
-public class TaskB1 {
+import java.util.ArrayList;
 
+public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list=new ArrayList<>();
+list.add("one"); list.add("two");list.add("three");list.add("four");list.add("five");
+        System.out.println(list.size());
+        for (java.lang.String element:list) {
+            System.out.println(element);
+        }
+    }
 }

@@ -32,11 +32,12 @@ public class TaskA1 {
                 int arr[]=new int [10];
         Scanner sc=new Scanner(System.in);
         int i;
-        for (i=10;i>=0;i--){
-            int value =sc.nextInt();
-            arr[i]=value;}
-        for (i=0;i<10;i++)
-            System.out.println(arr[i]);
+        for (i=9;i>=0;i--){
+            arr[i]=sc.nextInt();
+                    }
+                    for (int element:arr) {
+                        System.out.println(element);
+                    }
 
     }
 }
