@@ -31,10 +31,12 @@ public class TaskA1 {
     public static void main(String[] args) {
                 int arr[]=new int [10];
         Scanner sc=new Scanner(System.in);
-        for (int i=10;i>=0;i--){
+        int i;
+        for (i=10;i>=0;i--){
             int value =sc.nextInt();
-            arr[i]=value; }
-        System.out.println(arr);
+            arr[i]=value;}
+        for (i=0;i<10;i++)
+            System.out.println(arr[i]);
 
     }
 }
