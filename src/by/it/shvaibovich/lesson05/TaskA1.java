@@ -24,6 +24,17 @@ package by.it.shvaibovich.lesson05;
 */
 
 
-public class TaskA1 {
+import java.util.ArrayList;
+import java.util.Scanner;
 
+public class TaskA1 {
+    public static void main(String[] args) {
+                int arr[]=new int [10];
+        Scanner sc=new Scanner(System.in);
+        for (int i=10;i>=0;i--){
+            int value =sc.nextInt();
+            arr[i]=value; }
+        System.out.println(arr);
+
+    }
 }
