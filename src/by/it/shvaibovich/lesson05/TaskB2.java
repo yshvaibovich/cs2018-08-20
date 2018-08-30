@@ -32,7 +32,7 @@ public class TaskB2 {
             int a=sc.nextInt();
             list.add(a);
         }
-       ArrayList<Integer> a=new ArrayList<>(10);
+              ArrayList<Integer> a=new ArrayList<>(10);
         ArrayList<Integer> b=new ArrayList<>(10);
         for (int i=0;i<=9;i++) {
             int a1=list.get(i);
@@ -41,7 +41,8 @@ public class TaskB2 {
         for (int i=10;i<=19;i++) {
             int a2=list.get(i);
             b.add(a2);}
-
+        System.out.println("a="+a);
+        System.out.println("b="+b);
 
     }
 
